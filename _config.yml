@@ -2,6 +2,18 @@ title: Abhijeet Dhakane
 #logo: /assets/img/logo.png
 logo: /assets/img/23-025-1666.JPG
 description: Abhijeet Dhakane
+email: adhakane@vols.utk.edu
+baseurl: "" 
+twitter_username: AbhijeetD104
+github_username:  abhijeetdhakane
+
+# Social links
+social:
+  - name: orcid
+    url: https://orcid.org/0000-0001-5645-4034
+  - name: linkedin
+    url: https://www.linkedin.com/in/abhijeetdhakane/
+
 #show_downloads: true
 #google_analytics:
 theme: jekyll-theme-minimal
