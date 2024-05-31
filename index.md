@@ -20,12 +20,12 @@ to analyze complex atomistic events intelligently and enhance the understanding 
 # News
 
 - [Mar 24] Presented the research on _Understanding Switching in Hexagonal Ferroelectrics by Combining Large-scale Reactive MD and Experiments._  at APS March Meeting 2024, Minneapolis, MN
-- [Jun 23] Our research article _A Graph Dynamical neural network approach for decoding dynamical states in ferroelectrics._ is now online. [https://www.sciencedirect.com/science/article/pii/S2667056923000196]
+- [Jun 23] Our research article _A Graph Dynamical neural network approach for decoding dynamical states in ferroelectrics._ is now online. [paper](https://www.sciencedirect.com/science/article/pii/S2667056923000196)
 - [Mar 23] Presented the research on _Understanding Dynamics of Heterogeneous Ferroelectric Oxides at the Nanoscale using Graph Neural Networks on Reactive Force-Field Simulations_  at APS March Meeting 2023, Las Vegas, NV
-- [Apr 21] We released a dataset consist of large scale molecular dynamic trajectories with field based switching for BaTiO$3$ [https://www.osti.gov/biblio/1773493]
-- [Dec 20] Our paper _Molecular dynamics simulations of separator-cathode interfacial thermal transport in a Li-ion cell_ is now online. [https://www-sciencedirect-com.ornl.idm.oclc.org/science/article/pii/S2468023020306660]
+- [Apr 21] We released a dataset consist of large scale molecular dynamic trajectories with field based switching for BaTiO$3$ [Dataset](https://www.osti.gov/biblio/1773493)
+- [Dec 20] Our paper _Molecular dynamics simulations of separator-cathode interfacial thermal transport in a Li-ion cell_ is now online. [paper](https://www-sciencedirect-com.ornl.idm.oclc.org/science/article/pii/S2468023020306660)
 - [Aug 19] Started PhD in _Data Science and Engineering_ at Bredesen Center joint program by  University of Tennessee Knoxville and Oak Ridge National Laboratory.
 - [Aug 19] I have defended my Master Thesis  and complted Master in Science at University of Texas at Arlington
-- [Jul 19] Our resaetch article _Surface, Interface, and Temperature Effects on the Phase Separation and Nanoparticle Self Assembly of Bi-Metallic Ni0. 5Ag0. 5: A Molecular Dynamics Study_ is now online. [https://www.mdpi.com/2079-4991/9/7/1040]
+- [Jul 19] Our resaetch article _Surface, Interface, and Temperature Effects on the Phase Separation and Nanoparticle Self Assembly of Bi-Metallic Ni0. 5Ag0. 5: A Molecular Dynamics Study_ is now online. [paper](https://www.mdpi.com/2079-4991/9/7/1040)
 - [Sept 18] Started internship at Oak Ridge National Laboratory.
   
