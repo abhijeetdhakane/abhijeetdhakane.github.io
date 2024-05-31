@@ -12,7 +12,7 @@ I am a Graduate Research Assistant at the Nanomaterials Theory Institute (NTI) w
 
 ## Reasearch interest
 
-I specialize in interdisciplinary research that merges theoretical condensed matter physics (computaional physics) with machine learning and artificial
+I specialize in interdisciplinary research that merges theoretical condensed matter physics (computational physics) with machine learning and artificial
 intelligence. My primary focus is on the development and atomistic level understanding of novel ferroelectric materials particularly pervoskites, wurtzites, which are critical for memory,
 energy storage, and neuromorphic computing applications. I leverage my expertise in machine learning/artificial intelligence and computaional physics
 to analyze complex atomistic events intelligently and enhance the understanding of these materials.
