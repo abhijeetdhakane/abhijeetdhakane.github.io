@@ -2,9 +2,8 @@
 layout: default
 ---
 
-[Link to another page](./cv.html).
-[Link to another page](./publications.html).
-[Link to another page](./books.html).
+[CV](./cv.html).
+[Books](./books.html).
 
 # Bio
 
