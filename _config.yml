@@ -9,7 +9,9 @@ twitter_username: AbhijeetD104
 github_username:  abhijeetdhakane
 
 # Social links
-social:
+social_links:
+  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
+  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
   - name: orcid
     url: https://orcid.org/0000-0001-5645-4034
   - name: linkedin
