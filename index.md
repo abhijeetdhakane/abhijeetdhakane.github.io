@@ -1,27 +1,76 @@
 ---
-layout: default
+layout: home
+title: Home
+jsarr:
+- js/scripts.js
 ---
 
-[CV](./cv.html).
-[Books](./books.html).
+<div id ="intro-wrapper" class="l-page">
+	<div id="intro-title-wrapper" class="intro-left">
+		<h1 id="intro-title">{{ site.title }}</h1>
+		<div id="intro-subtitle">
+			{{ site.tagline }} 
+		</div>
+	</div>
+	<div class="intro-left">
+	<div class="intro-left">
+		I work on Natural Language Processing and machine learning research specifically in generative AI, question answering and conversational AI. I am a Senior AI/ML Manager in the Siri and Search team at Apple leading the query understanding and knowledge graph machine learning initiatives. I have 30+ patents and 20+ papers accepted at top conferences like ACL, EMNLP, NAACL, AAAI and KDD with over 1000+ citations.  
+	</div>
+	<div style="height: 1rem"></div>
+	<div>
+        Prior to this I was a Senior Staff Applied Scientist and Engineering Manager at IBM Watson where I designed and developed algorithms for IBM's conversational AI product - Watson Assistant. 
+	</div>
+	<div class="intro-left">
+        I got my Masters degree at the Language Technologies Institute at Carnegie Mellon University in 2014. I was awarded the Women in AI Award - North America (Special Jury Recognition) in 2023 for my work in AI.  
+	</div>
+	<div style="height: 1rem"></div>
+</div>
 
-# Bio
+<div class="intro-right">
+	<img id="intro-image" class="intro-right" src="/images/portrait.jpg">
+	<div style="height: 0.5rem"></div>
+	<div id="intro-image-links" class="intro-right">
+		{% for link in site.data.social-links %}
+			{% if link.on-homepage == true %}
+				{% include social-link.html link=link %}
+			{% endif %}
+		{% endfor %}
+	</div>
+	<div style="height: 0.5rem"></div>
+	<div id="intro-cv-wrapper" class="intro-right">
+		{% for link in site.data.social-links %}
+			{% if link.id == "cv-web" %}
+				{% include social-link.html link=link %}
+			{% endif %}
+		{% endfor %}
+	</div>
+	</div>
+</div>
 
-I am a Graduate Research Assistant at the Nanomaterials Theory Institute (NTI) within the Center for Nanophase Materials Sciences at Oak Ridge National Laboratory and a Bredesen Center Fellow in Data Science and Engineering at the University of Tennessee. I hold an Master of Science (MS) in Mechanical Engineering from the University of Texas at Arlington (2019) and a Bachelor of Engineering (BE) in Mechanical Engineering from Savitribai Phule Pune University, Pune (2016). During Master's I did internship at Oak Ridge National Laboratory.
 
-## Reasearch interest
 
-I specialize in interdisciplinary research that merges theoretical condensed matter physics (computational physics) with machine learning and artificial intelligence. My primary focus is on the development and atomistic-level understanding of novel ferroelectric materials particularly perovskites, and wurtzites, which are critical for memory, energy storage, and neuromorphic computing applications. I leverage my expertise in machine learning/artificial intelligence and computational physics to analyze complex atomistic events intelligently and enhance the understanding of these novel materials.
+
+<hr class="l-page">
 
 # News
+{% for news in site.data.news %}
+{% include news.html news=news %}
+{% endfor %}
 
-- [Mar 24] Presented the research on _Understanding Switching in Hexagonal Ferroelectrics by Combining Large-scale Reactive MD and Experiments._  at APS March Meeting 2024, Minneapolis, MN
-- [Jun 23] Our research article _A Graph Dynamical neural network approach for decoding dynamical states in ferroelectrics._ is now online. [paper](https://www.sciencedirect.com/science/article/pii/S2667056923000196)
-- [Mar 23] Presented the research on _Understanding Dynamics of Heterogeneous Ferroelectric Oxides at the Nanoscale using Graph Neural Networks on Reactive Force-Field Simulations_  at APS March Meeting 2023, Las Vegas, NV
-- [Apr 21] We released a dataset consist of large scale molecular dynamic trajectories with field based switching for BaTiO_3. [Dataset](https://www.osti.gov/biblio/1773493)
-- [Dec 20] Our paper _Molecular dynamics simulations of separator-cathode interfacial thermal transport in a Li-ion cell_ is now online. [paper](https://www-sciencedirect-com.ornl.idm.oclc.org/science/article/pii/S2468023020306660)
-- [Aug 19] Started PhD in _Data Science and Engineering_ at Bredesen Center joint program by  University of Tennessee Knoxville and Oak Ridge National Laboratory.
-- [Aug 19] I have defended my Master Thesis  and complted Master in Science at University of Texas at Arlington
-- [Jul 19] Our resaetch article _Surface, Interface, and Temperature Effects on the Phase Separation and Nanoparticle Self Assembly of Bi-Metallic Ni0. 5Ag0. 5: A Molecular Dynamics Study_ is now online. [paper](https://www.mdpi.com/2079-4991/9/7/1040)
-- [Sept 18] Started internship at Oak Ridge National Laboratory.
-  
+
+<hr class="l-page">
+
+# Publications and Patents
+
+{% assign selectedBoolForBibtex = true %}
+{% assign selected = site.data.publications %}
+{% for pub in selected %}
+{% include pubentry.html pub=pub %}
+{% endfor %}
+
+
+<!-- ### All Publications -->
+
+{% assign selectedBoolForBibtex = false %}
+
+<hr class="l-page">

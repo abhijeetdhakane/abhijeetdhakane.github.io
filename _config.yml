@@ -1,39 +1,37 @@
 title: Abhijeet Dhakane
-#logo: /assets/img/logo.png
-logo: /assets/img/23-025-1666.JPG
-description: Abhijeet Dhakane 
-email: adhakane [at] vols [dot] utk [dot] edu
-#email: adhakane@vols.utk.edu
-#baseurl: "" 
-#twitter_username: AbhijeetD104
-#github_username:  abhijeetdhakane
+tagline: PhD Data Science and Engineering
+domain: abhijeetdhakane.github.io
+url: https://abhijeetdhakane.github.io
+description: Abhijeet Dhakane is Bredesen Center Fellow in Data Science and Engineering at the University of Tennessee
+favicon: <i class="fa-solid fa-i"></i> # this is useless. Look at pngs in the `icons/` folder and change
+baseurl: ""
+# gems: [jekyll-paginate]
+# paginate: 5
 
-favicon: true
-color-scheme: auto
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# permalink: "/:title"
+# relative_permalinks: true
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+author:
+  name: Abhijeet Dhakane
+  url: https://abhijeetdhakane.github.io
+  email: abhirajdhakane2010-at-gmail.com
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class: 'syntax'
+
+excerpt_separator: <!--more-->
 
 plugins:
   - jekyll-sitemap
-  - jekyll-seo-tag
-  - jemoji
-
-platforms:
-  - name: GitHub
-    icon: <i class="fa-brands fa-github"></i>
-    link: https://github.com/abhijeetdhakane
-  - name: LinkedIn
-    icon: <i class="fa-brands fa-linkedin"></i>
-    link: https://www.linkedin.com/in/abhijeetdhakane
-
-
-# Social links
-#social_links:
-#  - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=qc6CJjYAAAAJ" }
-#  - { platform: linkedin,       user_url: "https://www.linkedin.com/in/jekyll" }
-#  - name: orcid
-#    url: https://orcid.org/0000-0001-5645-4034
-#  - name: linkedin
-#    url: https://www.linkedin.com/in/abhijeetdhakane/
-
-#show_downloads: true
-#google_analytics:
-#theme: jekyll-theme-minimal
+  - jekyll-feed
+  - jekyll-redirect-from

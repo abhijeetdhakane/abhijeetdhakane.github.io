@@ -2,17 +2,16 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   {% include head.html %}
   <body>
-    {% include header.html %}
     <main>
       {{ content }}
     </main>
+    {% if page.jsarr %}
+      {% for js in page.jsarr %}
+        <script>
+          {% include {{ js }} %}
+        </script>
+      {% endfor %}
+    {% endif %}
     {% include footer.html %}
   </body>
-  {% if page.jsarr %}
-    {% for js in page.jsarr %}
-      <script>
-        {% include {{ js }} %}
-      </script>
-    {% endfor %}
-  {% endif %}
 </html>
