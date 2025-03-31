@@ -1,7 +1,7 @@
 {
-  "name": "salonipotdar.github.io",
+  "name": "abhijeetdhakane.github.io",
   "version": "1.0.0",
-  "description": "Saloni Potdar's website.",
+  "description": "Abhijeet Dhakane's website.",
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve --livereload"
@@ -10,6 +10,6 @@
     "type": "git",
     "url": ""
   },
-  "author": "Saloni Potdar",
+  "author": "Abhijeet Dhakane",
   "license": "MIT"
 }
