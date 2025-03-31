@@ -12,8 +12,7 @@ jsarr:
 
 
 <div>
-	I am a Senior Applied Research Manager with 11 years of industry experience and 8 years of management experience. I work in the Siri and Search team at Apple where I work on building Apple Intelligence AI features that powers natural interactions across Siri, Spotlight and Safari. 
-	My research interests lie at the intersection of Generative AI, Question Answering, Dialog Systems and Knowledge Graphs. I have 30+ patents and 20+ publications with 1000+ citations in top tier research conferences like ACL, NAACL, EMNLP, AAAI, etc. 
+	I am a PhD stundent at Bredesen Center at University of Tennessee and Oak Ridge National Laboratory. I work in AI4Science-Material Science domain towards my disseration adapting machine learning and deep learning technique to accelerate the material discovery. To solve the material science related problems in the emerging memory, energy storage and neuromorphic computing applications.   
 </div>
 
 ***
