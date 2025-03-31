@@ -12,7 +12,7 @@ jsarr:
 
 
 <div>
-	I am a PhD stundent at Bredesen Center at University of Tennessee and Oak Ridge National Laboratory. I work in AI4Science-Material Science domain towards my disseration adapting machine learning and deep learning technique to accelerate the material discovery. To solve the material science related problems in the emerging memory, energy storage and neuromorphic computing applications.   
+	I am a PhD student at Bredesen Center at University of Tennessee and Oak Ridge National Laboratory. I work in AI4Science-Material Science domain towards my disseration adapting machine learning and deep learning technique to accelerate the material discovery. To solve the material science related problems in the emerging memory, energy storage and neuromorphic computing applications.   
 </div>
 
 ***
