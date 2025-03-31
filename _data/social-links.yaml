@@ -8,20 +8,20 @@
   on-footer: false
 
 - id: email-personal
-  description: "saloni.potdar@gmail.com"
+  description: "adhakane@vols.utk.edu"
   color: "#515151"
   class: "fas fa-envelope-open-text icon"
-  url: "mailto:saloni.potdar@gmail.com"
+  url: "mailto:adhakane@vols.utk.edu"
   on-homepage: true
   cv-group: 1
   on-footer: true
   footer-icon-style: fa-lg fa fa-envelope-open-text footer-icon
 
 - id: email
-  description: "s_potdar@apple.com"
+  description: "dhakaneas@ornl.gov"
   color: "#515151"
   class: "fas fa-envelope icon"
-  url: "mailto:s_potdar@apple.com"
+  url: "mailto:dhakaneas@ornl.gov"
   on-homepage: true
   cv-group: 1
   on-footer: true
@@ -29,10 +29,10 @@
 
 
 #- id: github
-#  description: "@salonipotdar"
+#  description: "@abhijeetdhakane"
 #  color: "#6e5494"
 #  class: "fab fa-github icon"
-#  url: "https://github.com/salonipotdar"
+#  url: "https://github.com/abhijeetdhakane"
 #  on-homepage: true
 #  cv-group: 2
 #  on-footer: false
@@ -42,7 +42,7 @@
   description: "Google Scholar"
   color: "#515151"
   class: "fa fa-graduation-cap icon"
-  url: "https://scholar.google.com/citations?hl=en&user=D7EmAyEAAAAJ"
+  url: "https://scholar.google.com/citations?user=TEVJXcEAAAAJ&hl=en&oi=ao"
   on-homepage: true
   cv-group: 2
   on-footer: true
@@ -69,17 +69,17 @@
   description: "LinkedIn"
   color: "#515151"
   class: "fab fa-linkedin-in icon"
-  url: "https://www.linkedin.com/in/saloni-potdar/"
+  url: "https://www.linkedin.com/in/abhijeetdhakane/"
   on-homepage: false
   cv-group: 2
   on-footer: true
   footer-icon-style: fa-lg fab fa-linkedin-in footer-icon
 
 - id: twitter
-  description: "@saloni_p"
+  description: "@AbhijeetD104"
   color: "#1da1f2"
   class: "fab fa-twitter icon"
-  url: https://x.com/saloni_p
+  url: https://x.com/AbhijeetD104
   on-homepage: true
   cv-group: 2
   on-footer: true

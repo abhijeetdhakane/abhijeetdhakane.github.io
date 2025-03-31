@@ -14,14 +14,12 @@ jsarr:
 	</div>
 	<div class="intro-left">
 	<div class="intro-left">
-		I work on Natural Language Processing and machine learning research specifically in generative AI, question answering and conversational AI. I am a Senior AI/ML Manager in the Siri and Search team at Apple leading the query understanding and knowledge graph machine learning initiatives. I have 30+ patents and 20+ papers accepted at top conferences like ACL, EMNLP, NAACL, AAAI and KDD with over 1000+ citations.  
+		I am a Graduate Research Assistant at the Nanomaterials Theory Institute (NTI) within the Center for Nanophase Materials Sciences at Oak Ridge National Laboratory and a Bredesen Center Fellow in Data Science and Engineering at the University of Tennessee. I hold an Master of Science (MS) in Mechanical Engineering from the University of Texas at Arlington (2019) and a Bachelor of Engineering (BE) in Mechanical Engineering from Savitribai Phule Pune University, Pune (2016). During Master's I did internship at Oak Ridge National Laboratory.
+
 	</div>
 	<div style="height: 1rem"></div>
-	<div>
-        Prior to this I was a Senior Staff Applied Scientist and Engineering Manager at IBM Watson where I designed and developed algorithms for IBM's conversational AI product - Watson Assistant. 
-	</div>
 	<div class="intro-left">
-        I got my Masters degree at the Language Technologies Institute at Carnegie Mellon University in 2014. I was awarded the Women in AI Award - North America (Special Jury Recognition) in 2023 for my work in AI.  
+        I specialize in interdisciplinary research that merges theoretical condensed matter physics (computational physics) with machine learning and artificial intelligence. My primary focus is on the development and atomistic-level understanding of novel ferroelectric materials particularly perovskites, and wurtzites, which are critical for memory, energy storage, and neuromorphic computing applications. I leverage my expertise in machine learning/artificial intelligence and computational physics to analyze complex atomistic events intelligently and enhance the understanding of these novel materials.
 	</div>
 	<div style="height: 1rem"></div>
 </div>
