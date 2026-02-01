@@ -17,26 +17,26 @@
   on-footer: true
   footer-icon-style: fa-lg fa fa-envelope-open-text footer-icon
 
-- id: email
-  description: "dhakaneas@ornl.gov"
-  color: "#515151"
-  class: "fas fa-envelope icon"
-  url: "mailto:dhakaneas@ornl.gov"
+# - id: email
+#   description: "dhakaneas@ornl.gov"
+#   color: "#515151"
+#   class: "fas fa-envelope icon"
+#   url: "mailto:dhakaneas@ornl.gov"
+#   on-homepage: true
+#   cv-group: 1
+#   on-footer: true
+#   footer-icon-style: fa-lg fa fa-envelope footer-icon
+
+
+- id: github
+  description: "@abhijeetdhakane"
+  color: "#6e5494"
+  class: "fab fa-github icon"
+  url: "https://github.com/abhijeetdhakane"
   on-homepage: true
   cv-group: 1
-  on-footer: true
-  footer-icon-style: fa-lg fa fa-envelope footer-icon
-
-
-#- id: github
-#  description: "@abhijeetdhakane"
-#  color: "#6e5494"
-#  class: "fab fa-github icon"
-#  url: "https://github.com/abhijeetdhakane"
-#  on-homepage: true
-#  cv-group: 2
-#  on-footer: false
-#  footer-icon-style: fa-lg fab fa-github footer-icon
+  on-footer: false
+  footer-icon-style: fa-lg fab fa-github footer-icon
 
 - id: scholar
   description: "Google Scholar"
@@ -71,7 +71,7 @@
   class: "fab fa-linkedin-in icon"
   url: "https://www.linkedin.com/in/abhijeetdhakane/"
   on-homepage: false
-  cv-group: 2
+  cv-group: 1
   on-footer: true
   footer-icon-style: fa-lg fab fa-linkedin-in footer-icon
 
@@ -84,3 +84,23 @@
   cv-group: 2
   on-footer: true
   footer-icon-style: fa-lg fab fa-twitter footer-icon
+
+- id: ORCID
+  description: "abhijeetdhakane"
+  color: "#A6CE39"
+  class: "fab fa-orcid icon"
+  url: https://orcid.org/0000-0001-5645-4034
+  on-homepage: true
+  cv-group: 2
+  on-footer: true
+  footer-icon-style: fa-lg fab fa-orcid footer-icon
+
+# - id: WebOfScience
+#   description: "abhijeetdhakane"
+#   class: "iconify"
+#   iconify-icon: simple-icons:webofscience
+#   url: https://www.webofscience.com/wos/author/XXXXXXXX
+#   on-homepage: true
+#   cv-group: 2
+#   on-footer: true
+

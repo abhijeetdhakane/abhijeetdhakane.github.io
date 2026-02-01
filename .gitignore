@@ -3,3 +3,15 @@ _site
 Gemfile.lock
 *.gem
 .jekyll-cache
+local-dev.sh
+
+# AI tools
+.claude*
+CLAUDE.md
+.codex*
+AGENTS.md
+.cursor*
+.copilot*
+
+# macOS
+.DS_Store

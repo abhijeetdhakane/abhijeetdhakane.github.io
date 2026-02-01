@@ -56,3 +56,32 @@ function onYouTubeIframeAPIReady() {
 function onPlayerReady(event) {
 	// player.mute()
 }
+
+// News read more toggle
+(function() {
+	const newsItems = document.querySelectorAll('.news-item');
+	const readMoreBtn = document.getElementById('read-more-news');
+	const visibleCount = 8;
+
+	if (newsItems.length > visibleCount) {
+		// Hide items beyond the visible count
+		for (let i = visibleCount; i < newsItems.length; i++) {
+			newsItems[i].classList.add('hidden');
+		}
+
+		// Show all on click
+		if (readMoreBtn) {
+			readMoreBtn.addEventListener('click', function() {
+				newsItems.forEach(function(item) {
+					item.classList.remove('hidden');
+				});
+				readMoreBtn.classList.add('hidden');
+			});
+		}
+	} else {
+		// Hide button if not enough items
+		if (readMoreBtn) {
+			readMoreBtn.classList.add('hidden');
+		}
+	}
+})();

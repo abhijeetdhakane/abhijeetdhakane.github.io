@@ -1,31 +1,71 @@
-- institution: Apple Inc.
-  location: "Seattle, WA, USA"
-  position: Senior AI/ML Manager
-  group: "Question Answering"
-  year: "Oct 2022 - Present"
-  description: "Manages and leads the applied research team for Knowledge Graph Machine Learning where we build features that powers interactions across Siri, Safari and Spotlight Search. I currently work on Question Answering, Semantic Annotation, Entity Linking and Knowledge Graphs. My team has shipped various features like Knowledge Graph Question Answering, Answer Highlights and Query Understanding models for Siri, Safari and Spotlight search, Related People, Safari Highlights and more recently on Apple Intelligence Summarization."
-  type: industry
+- institution: The Bredesen Center for Interdisciplinary Research (University of Tennessee Knoxville - Oak Ridge National Laboratory)
+  location: "Knoxville, TN, USA"
+  position: Graduate Research Assistant
+  group: "Center for Nanophase Materials Sciences - Nano Theory Institute"
+  year: "Aug 2019 - May 2025"
+  description: "Led the development of exascale multi-GPU MD and AI workflows for ferroelectric and 2D materials, enabling dynamics-by-design materials design and accelerated training on DOE-scale HPC systems."
+  type: academia
 
-- institution: IBM Watson
-  location: "New York, NY, USA"
-  position: Senior Staff Applied Scientist and Engineering Manager
-  group: "Watson Assisant"
-  year: "Feb 2015 - Sep 2022"
-  description: "Manager and lead for the applied research team that designed and developed algorithms for IBM's conversational AI product - Watson Assistant. I worked on the Natural Language Understanding components of Waston Assistant which includes intent classification, entity recognition, spellcheck and irrelevant detection across multiple languages. The algorithms are designed to be custom-trained for customers globally, deployed at scale with hundreds of thousands of models in production and serves more than 1.9% of the world’s population every month."
-  type: industry
+- institution: University of Texas at Arlington
+  location: "Arlington, TX, USA"
+  position: Graduate Research Assistant
+  group: "Microscale Thermophysics Laboratory"
+  year: "Jan 2018 - Aug 2019"
+  description: "Led molecular dynamics studies of Li-ion interfacial heat transport, achieving up to 250% improvement in thermal conductance through interface and monolayer design."
+  type: academia
 
+- institution: Oak Ridge National Laboratory
+  location: "Oak Ridge, TN, USA"
+  position: DOE-ASTRO Intern
+  group: "Center for Nanophase Materials Sciences - Nano Theory Institute"
+  year: "Sept 2018 - Dec 2018"
+  description: "Modeled electron-beam-driven defect dynamics and phase separation in metallic alloys to support atom-by-atom fabrication experiments."
+  type: academia
 
-- institution: IBM Watson
-  location: "Cambridge, MA, USA"
-  position: "Applied Research Intern"
-  group: "Watson Core Algorithms"
-  year: May 2014 - Aug 2014
-  description: "My work revolved around using Distributional Semantics to improve the Watson Question Answering system. We used query expansion, synonym generation and question classification to improve the Watson Question Answering system."
-  type: industry
+- institution: University of Texas at Arlington Research Institute
+  location: "Arlington, TX, USA"
+  position: Research Assistant
+  group: "Institute for Predictive Performance Methodologies"
+  year: "Jan 2018 - Aug 2018"
+  description: "Implemented in-situ structural health monitoring with a smart thin devices and supported clean-room microfabrication workflows for aerospace composite materials."
+  type: academia
 
-- institution: "Tata Consultancy Services"
+- institution: Savitraibai Phule Pune University
   location: "Pune, India"
-  position: "Software Engineer"
-  group: "Business Intelligence"
-  year: "Dec 2012 - Aug 2013"
-  type: industry
+  position: Project Assistant
+  group: "Center for Modelling and Simulations"
+  year: "Jul 2015 - Jul 2017"
+  description: "Applied classical and DFT-based simulations with HPC workflows, building automation and post-processing tools to improve modeling throughput."
+  type: academia
+
+# - institution: Apple Inc.
+#   location: "Seattle, WA, USA"
+#   position: Senior AI/ML Manager
+#   group: "Question Answering"
+#   year: "Oct 2022 - Present"
+#   description: "Manages and leads the applied research team for Knowledge Graph Machine Learning where we build features that powers interactions across Siri, Safari and Spotlight Search. I currently work on Question Answering, Semantic Annotation, Entity Linking and Knowledge Graphs. My team has shipped various features like Knowledge Graph Question Answering, Answer Highlights and Query Understanding models for Siri, Safari and Spotlight search, Related People, Safari Highlights and more recently on Apple Intelligence Summarization."
+#   type: industry
+
+# - institution: IBM Watson
+#   location: "New York, NY, USA"
+#   position: Senior Staff Applied Scientist and Engineering Manager
+#   group: "Watson Assisant"
+#   year: "Feb 2015 - Sep 2022"
+#   description: "Manager and lead for the applied research team that designed and developed algorithms for IBM's conversational AI product - Watson Assistant. I worked on the Natural Language Understanding components of Waston Assistant which includes intent classification, entity recognition, spellcheck and irrelevant detection across multiple languages. The algorithms are designed to be custom-trained for customers globally, deployed at scale with hundreds of thousands of models in production and serves more than 1.9% of the world’s population every month."
+#   type: industry
+
+
+# - institution: IBM Watson
+#   location: "Cambridge, MA, USA"
+#   position: "Applied Research Intern"
+#   group: "Watson Core Algorithms"
+#   year: May 2014 - Aug 2014
+#   description: "My work revolved around using Distributional Semantics to improve the Watson Question Answering system. We used query expansion, synonym generation and question classification to improve the Watson Question Answering system."
+#   type: industry
+
+# - institution: "Tata Consultancy Services"
+#   location: "Pune, India"
+#   position: "Software Engineer"
+#   group: "Business Intelligence"
+#   year: "Dec 2012 - Aug 2013"
+#   type: industry

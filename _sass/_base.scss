@@ -46,3 +46,48 @@ img {
     flex-direction: column;
     justify-content: center;
 }
+
+// News read more fading effect
+#news-items {
+    display: contents;
+}
+
+.news-item {
+    display: contents;
+
+    > div:not(.cv-left-date) {
+        grid-column: text;
+    }
+}
+
+.news-item.hidden {
+    display: none;
+
+    > * {
+        display: none;
+    }
+}
+
+#read-more-news {
+    text-align: center;
+    margin-top: -90px;
+    padding-top: 80px;
+    height: 110px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 1.0));
+    position: relative;
+    z-index: 2;
+
+    a {
+        cursor: pointer;
+        color: $blue;
+        text-decoration: none;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}
+
+#read-more-news.hidden {
+    display: none;
+}
