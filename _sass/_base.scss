@@ -49,23 +49,22 @@ img {
 
 // News read more fading effect
 #news-items {
-    display: contents;
+    grid-column: page;
 }
 
 .news-item {
-    display: contents;
+    display: grid;
+    grid-template-columns: 7rem 1fr;
+    column-gap: 1.5rem;
+    margin-bottom: 0.25rem;
+}
 
-    > div:not(.cv-left-date) {
-        grid-column: text;
-    }
+#news-items .cv-left-date {
+    grid-column: 1 !important;
 }
 
 .news-item.hidden {
     display: none;
-
-    > * {
-        display: none;
-    }
 }
 
 #read-more-news {
@@ -85,6 +84,12 @@ img {
         &:hover {
             text-decoration: underline;
         }
+    }
+}
+
+@media screen and (max-width: $mobile) {
+    .news-item {
+        grid-template-columns: 1fr;
     }
 }
 
